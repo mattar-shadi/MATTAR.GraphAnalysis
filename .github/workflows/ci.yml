@@ -1,0 +1,30 @@
+name: CI
+
+on:
+  push:
+    branches: ["**"]
+  pull_request:
+
+jobs:
+  build-test:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: "10.0.x"
+
+      - name: Restore
+        run: dotnet restore MATTAR.GraphAnalysis.slnx
+
+      - name: Build
+        run: dotnet build MATTAR.GraphAnalysis.slnx --no-restore -c Release
+
+      - name: Test
+        run: dotnet test MATTAR.GraphAnalysis.slnx --no-build -c Release --verbosity normal
