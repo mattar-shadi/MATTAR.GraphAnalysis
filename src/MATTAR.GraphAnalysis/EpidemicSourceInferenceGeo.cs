@@ -6,14 +6,6 @@ using System.Text.Json;
 
 namespace MATTAR.GraphAnalysis;
 
-public class Node
-{
-    public int Id { get; set; }
-    public double Lat { get; set; }
-    public double Lon { get; set; }
-    public DateTime? InfectionTime { get; set; } // optionnel pour des données réelles
-}
-
 public class EpidemicSourceInferenceGeo
 {
     private readonly double beta;
