@@ -103,4 +103,4 @@ Le fichier GeoJSON généré peut être visualisé avec :
 
 ## Licence
 
-Aucune licence n’est définie pour le moment. Si vous souhaitez une réutilisation claire (MIT/Apache-2.0/GPL…), ajoutez un fichier `LICENSE`.
+Ce projet est distribué sous licence **MIT** — voir le fichier [LICENSE](./LICENSE).
