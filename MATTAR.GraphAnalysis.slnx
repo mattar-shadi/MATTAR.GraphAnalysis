@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/MATTAR.GraphAnalysis/MATTAR.GraphAnalysis.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/MATTAR.GraphAnalysis.Tests/MATTAR.GraphAnalysis.Tests.csproj" />
+  </Folder>
+</Solution>
