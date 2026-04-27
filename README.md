@@ -1,7 +1,6 @@
 # MATTAR.GraphAnalysis
 
 [![CI](https://github.com/mattar-shadi/MATTAR.GraphAnalysis/actions/workflows/ci.yml/badge.svg)](https://github.com/mattar-shadi/MATTAR.GraphAnalysis/actions/workflows/ci.yml)
-[![Tests](https://github.com/mattar-shadi/MATTAR.GraphAnalysis/actions/workflows/ci.yml/badge.svg?label=tests)](https://github.com/mattar-shadi/MATTAR.GraphAnalysis/actions/workflows/ci.yml)
 
 Bibliothèque **.NET (C#)** pour l’**analyse de graphes** avec un premier module d’**inférence de la source d’une épidémie** à partir de cas géolocalisés.
 
